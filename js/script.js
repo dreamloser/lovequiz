@@ -54,8 +54,6 @@ var n = 1,
  
    setTimeout(
       function() {
-        document.getElementById("song").play();
-        playing = true;
     var a = Math.floor((Math.random()*(questions.length))),
         v = questions[a];
         k = v;
@@ -65,6 +63,8 @@ var n = 1,
         $("#choiceA").text(v.A.describe);
         $("#choiceB").text(v.B.describe);
         $("#choiceC").text(v.C.describe);
+        document.getElementById("song").play();
+        playing = true;
         n++;
      if (n > 10) {   
         document.title = "我的真实年龄居然是" + (s/10|0) +"岁，你也快来测一下吧~！"
