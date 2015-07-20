@@ -40,7 +40,7 @@ var n = 1,
       m = k[d].score;
    /*   console.log(m); */
       console.log(n);
-    
+      document.getElementById("song").pause();
       s = s + m;
       l = l + 10;
       $("#progressbar>div").css("width", l + "%");
