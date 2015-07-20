@@ -29,6 +29,8 @@ var n = 1,
       $("#choiceA").text(k.A.describe);
       $("#choiceB").text(k.B.describe);
       $("#choiceC").text(k.C.describe);
+      document.getElementById("song").play();
+      playing = true;
     });
 
 
@@ -116,7 +118,7 @@ var p = {
     q_1_1: {
     describe: "<b>这首歌来自哪部电影？</b><br>",
     music: "<audio hidden autoplay class='songs' id='song' src='audios/变形金刚.mp3'></audio>",
-    playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>点击播放</b></button>",
+    playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
    A: {
       score: Math.floor(Math.random() * (34 - 24 + 1)) + 24,
       describe: "变形金刚"
