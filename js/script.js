@@ -54,7 +54,8 @@ var n = 1,
  
    setTimeout(
       function() {
-        
+        document.getElementById("song").play();
+        playing = true;
     var a = Math.floor((Math.random()*(questions.length))),
         v = questions[a];
         k = v;
@@ -135,7 +136,7 @@ var p = {
   q_1_2: {
     describe: "<b>这段启动声音来自哪个系统？</b><br>",
     music: "<audio hidden autoplay class='songs' id='song' src='audios/Windows95.mp3'></audio>",
-    playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>点击播放</b></button>",
+    playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
       describe: "Windows Me"
@@ -192,7 +193,7 @@ var p = {
       describe: "张韶涵"
     },
     B: {
-      score: Math.floor(Math.random() * (33 - 22 + 1)) + 22,
+      score: Math.floor(Math.random() * (33 - 25 + 1)) + 25,
       describe: "周杰伦"
     },
     C: {
@@ -575,7 +576,7 @@ var p = {
     }
   },
   q_1_28: {
-    describe: "<b>这首歌是《还珠格格》第几部的主题曲？</b>10<br>",
+    describe: "<b>这首歌是《还珠格格》第几部的主题曲？</b><br>",
     music: "<audio hidden autoplay class='songs' id='song' src='audios/还珠格格.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
