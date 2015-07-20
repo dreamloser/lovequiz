@@ -63,7 +63,7 @@ var n = 1,
         $("#choiceA").text(v.A.describe);
         $("#choiceB").text(v.B.describe);
         $("#choiceC").text(v.C.describe);
-        audio.oncanplaythrough = document.getElementById("song").play();
+        document.getElementById("song").oncanplaythrough = document.getElementById("song").play();
         playing = true;
         n++;
      if (n > 10) {   
