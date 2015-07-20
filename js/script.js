@@ -458,7 +458,7 @@ var p = {
   },
   q_1_21: {
     describe: "<b>这段音乐来自哪个动画片的开头曲？</b><br>",
-    music: "<audio hidden preload class='songs' id='song' src='audios/ドラえもんのうた.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/yintao.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
