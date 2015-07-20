@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Vivians Team">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta name="keywords" content="Roland, RolandMusic, 乐商, 音商, 测试">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	<title>测测你的音乐年龄</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/fastclick.js"></script>
+</head>
+<body class="bounceInDown animated noHover">
+    <div style="margin:0 auto;display:none;">
+    <img src="images/share_img.png"/></div>
+	<div id="start">
+		<div id="welcome">
+			<h3 class="logo bounceInDown animatedDelayed"></h3>
+			<p class="prologue bounceInDown animatedDelayed2">不管你是已历经沧桑还是正在坐着旋转木马，那些只有你才熟悉的声音都会出卖你的年龄......<br><br><br><br>友情提示：戴上耳机再测能有效减少被围观的概率。<br><br><small>注：目前为Beta版本</small></p>
+			<center><button class="btn btn-lg btn-success animatedDelayed3 fadeInUp" id="start_btn">开始测试</button></center>
+		</div>
+
+		<!--Questions-->
+		<div class="questions">
+			<center>
+				<div class="questionDes"></div>
+				<div class="centerChoice">
+					<button data-choice="A" id="choiceA" class="choice"></button><br>
+					<button data-choice="B" id="choiceB" class="choice"></button><br>
+					<button data-choice="C" id="choiceC" class="choice"></button>
+				</div>
+			</center>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		function setHeight() {
+			windowHeight = $(window).innerHeight();
+			$('#start').css('min-height', windowHeight);
+		};
+		setHeight();
+		
+		$(window).resize(function() {
+			setHeight();
+		});
+	});
+</script>
+</html>
