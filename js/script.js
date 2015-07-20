@@ -505,7 +505,7 @@ var p = {
     }
   },
   q_1_24: {
-    describe: "<b>这首歌是哪个动画片的片头曲？</b>10<br>",
+    describe: "<b>这首歌是哪个动画片的片头曲？</b><br>",
     music: "<audio hidden autoplay class='songs' id='song' src='audios/灌篮高手.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
