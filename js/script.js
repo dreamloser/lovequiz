@@ -118,7 +118,7 @@ var p = {
     q = {
     q_1_1: {
     describe: "<b>这首歌来自哪部电影？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/变形金刚.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/变形金刚.mp3'></audio>",
     playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
    A: {
       score: Math.floor(Math.random() * (34 - 24 + 1)) + 24,
@@ -135,7 +135,7 @@ var p = {
   },
   q_1_2: {
     describe: "<b>这段启动声音来自哪个系统？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/Windows95.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/Windows95.mp3'></audio>",
     playButton: "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -152,7 +152,7 @@ var p = {
   },
   q_1_3: {
     describe: "<b>这段音频来自哪个游戏？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/超级玛丽.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/超级玛丽.mp3'></audio>",
     playButton: "<button type='button' id='button2' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -169,7 +169,7 @@ var p = {
   },
   q_1_4: {
     describe: "<b>这首歌是哪部电影的主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/我好想你.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/我好想你.mp3'></audio>",
     playButton: "<button type='button' id='button3' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (45 - 30 + 1)) + 30,
@@ -186,7 +186,7 @@ var p = {
   },
   q_1_5: {
     describe: "<b>这个片段来自谁的歌？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/双节棍.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/双节棍.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -203,7 +203,7 @@ var p = {
   },
   q_1_6: {
     describe: "<b>这首歌是哪部日本连续剧主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/排球女将.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/排球女将.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -220,7 +220,7 @@ var p = {
   },
   q_1_7: {
     describe: "<b>这首歌来自哪部电视剧？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/爱情公寓.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/爱情公寓.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (25 - 15 + 1)) + 15,
@@ -237,7 +237,7 @@ var p = {
   },
   q_1_8: {
     describe: "<b>这是游戏《仙剑奇侠传》中什么时候的背景音乐？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/战斗胜利.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/战斗胜利.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (40 - 28 + 1)) + 28,
@@ -254,7 +254,7 @@ var p = {
   },
   q_1_9: {
     describe: "<b>这首歌来自哪个综艺节目？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/快乐大本营.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/快乐大本营.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (45 - 25 + 1)) + 25,
@@ -271,7 +271,7 @@ var p = {
   },
   q_1_10: {
     describe: "<b>这首歌叫什么名字？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/TFBOYS.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/TFBOYS.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (40 - 25 + 1)) + 25,
@@ -288,7 +288,7 @@ var p = {
   },
   q_1_11: {
     describe: "<b>这段开头来自哪部样板戏？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/红灯记.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/红灯记.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -305,7 +305,7 @@ var p = {
   },
   q_1_12: {
     describe: "<b>这段歌曲来自哪部港剧？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/霍元甲.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/霍元甲.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -322,7 +322,7 @@ var p = {
   },
   q_1_13: {
     describe: "<b>这段旋律来自那首歌？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/流星雨.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/流星雨.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (35 - 22 + 1)) + 22,
@@ -339,7 +339,7 @@ var p = {
   },
   q_1_14: {
     describe: "<b>这首歌是圣斗士哪一篇的主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/圣斗士.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/圣斗士.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (25 - 15 + 1)) + 15,
@@ -356,7 +356,7 @@ var p = {
   },
   q_1_15: {
     describe: "<b>这首歌来自哪部动画片？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/大力水手.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/大力水手.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (25 - 15 + 1)) + 15,
@@ -373,7 +373,7 @@ var p = {
   },
   q_1_16: {
     describe: "<b>这首歌叫什么名字？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/我爱洗澡.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/我爱洗澡.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (25 - 15 + 1)) + 15,
@@ -390,7 +390,7 @@ var p = {
   },
   q_1_17: {
     describe: "<b>这首歌是谁唱的？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/我想有个家.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/我想有个家.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (25 - 15 + 1)) + 15,
@@ -407,7 +407,7 @@ var p = {
   },
   q_1_18: {
     describe: "<b>这首歌来自哪部电视剧的主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/八月桂花香.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/八月桂花香.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (35 - 22 + 1)) + 22,
@@ -424,7 +424,7 @@ var p = {
   },
   q_1_19: {
     describe: "<b>这首歌来自哪部动画片？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/葫芦娃.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/葫芦娃.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -441,7 +441,7 @@ var p = {
   },
   q_1_20: {
     describe: "<b>你听到的是谁的成名曲的开头？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/天黑黑.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/天黑黑.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -458,7 +458,7 @@ var p = {
   },
   q_1_21: {
     describe: "<b>这段音乐来自哪个动画片的开头曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/ドラえもんのうた.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/ドラえもんのうた.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -475,7 +475,7 @@ var p = {
   },
   q_1_22: {
     describe: "<b>这首歌叫什么名字？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/新鸳鸯蝴蝶梦.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/新鸳鸯蝴蝶梦.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -492,7 +492,7 @@ var p = {
   },
   q_1_23: {
     describe: "<b>来自《不能说的秘密》的这段音乐是几只手弹的？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/几个手在弹.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/几个手在弹.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (50 - 35 + 1)) + 35,
@@ -509,7 +509,7 @@ var p = {
   },
   q_1_24: {
     describe: "<b>这首歌是哪个动画片的片头曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/灌篮高手.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/灌篮高手.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (35 - 24 + 1)) + 24,
@@ -526,7 +526,7 @@ var p = {
   },
   q_1_25: {
     describe: "<b>这首歌来自哪部电影？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/冰山上的雪莲.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/冰山上的雪莲.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (55 - 45 + 1)) + 45,
@@ -543,7 +543,7 @@ var p = {
   },
   q_1_26: {
     describe: "<b>“啊!朋友再见”这一句是哪部电影的插曲呢？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/桥.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/桥.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (22 - 15 + 1)) + 15,
@@ -560,7 +560,7 @@ var p = {
   },
   q_1_27: {
     describe: "<b>这首歌是哪部动画片的主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/小马.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/小马.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (35 - 25 + 1)) + 25,
@@ -577,7 +577,7 @@ var p = {
   },
   q_1_28: {
     describe: "<b>这首歌是《还珠格格》第几部的主题曲？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/还珠格格.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/还珠格格.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (35 - 22 + 1)) + 22,
@@ -594,7 +594,7 @@ var p = {
   },
   q_1_29: {
     describe: "<b>这首歌是哪部电影中的？</b><br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/野蛮女友.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/野蛮女友.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
@@ -611,7 +611,7 @@ var p = {
   },
   q_1_30: {
     describe: "<b>这首歌来自哪部电影？</b>10<br>",
-    music: "<audio hidden autoplay class='songs' id='song' src='audios/Unchained_Melody.mp3'></audio>",
+    music: "<audio hidden preload class='songs' id='song' src='audios/Unchained_Melody.mp3'></audio>",
     playButton: "<button type='button' id='button4' class='btn btn-info btn-sm'><b>暂停</b></button>",
     A: {
       score: Math.floor(Math.random() * (20 - 15 + 1)) + 15,
